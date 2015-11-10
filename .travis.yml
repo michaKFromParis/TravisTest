@@ -4,10 +4,6 @@ os:
   - linux
   - osx
 
-compiler:
-  - gcc
-  - clang
-
 install: brew update
 
 script: brew install zsh
