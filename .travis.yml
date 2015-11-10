@@ -3,11 +3,6 @@ os: osx
 matrix:
   allow_failures:
     - os: osx
-before_install:
 install: brew update
 
-before_script:
 script: brew install zsh
-after_success:
-after_failure:
-after_script:
