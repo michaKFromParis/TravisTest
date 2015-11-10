@@ -1,8 +1,13 @@
-language: objective-c
-os: osx
-matrix:
-  allow_failures:
-    - os: osx
+language: c
+
+os:
+  - linux
+  - osx
+
+compiler:
+  - gcc
+  - clang
+
 install: brew update
 
 script: brew install zsh
